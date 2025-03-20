@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #262626;
+    color: #f4f4f4;
+}
+.cabecalho {
+    padding: 2%0%0%15%;
+}
+.cabecalho__menu {
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    color: #22d4fd;
+    padding: 16px 15px;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.titulo-destaque {
+    color: #22d4fd;
+}
+.apresentacao {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.apresentacao__conteudo__tx {
+    font-size: 24px;
+    font-weight: 400;
+    font-family:  "Montserrat", sans-serif;
+}
+.apresentacao__links__subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+.apresentacao__links__botoes {
+    /*background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22d4fd;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family:  "Montserrat", sans-serif;
+
+}
+.apresentacao__links__botoes:hover {
+    background-color: #000;
+}
+.foto {
+    border-radius: 16px;
+    padding-left: 2%;
+}
+.rodape {
+ color: #262626;
+ background-color: #22d4fd;
+ padding: 24px; 
+ text-align: center;  
+ font-family:  "Montserrat", sans-serif;
+ font-size: 24px;
+ font-weight: 400
+}
